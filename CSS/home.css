@@ -23,7 +23,8 @@ header div {
 nav {
     height: 97px;
     position: absolute;
-    width: 99%s;
+    width: 100%;
+    padding-right: 35px;
 
 }
 
@@ -158,7 +159,6 @@ nav div ul li {
 .gal-item{
 width: 420px;
 height: 560px;
-background-color: aqua;
 border-radius: 0.5rem;
 margin: 20px 0;
 object-fit: cover;
@@ -173,6 +173,33 @@ height: 400px;
 }
 .img-2{
     background: url('../Imgs/img2.avif') round;
+}
+
+.img-3{
+    background: url('../Imgs/img3.avif') round;
+}
+
+.img-4{
+    background: url('../Imgs/img4.avif') round;
+}
+
+.img-5{
+    background: url('../Imgs/img5.avif') round;
+}
+
+.img-6{
+    background: url('../Imgs/img6.avif') round;
+}
+
+.img-7{
+    background: url('../Imgs/img7.avif') round;
+}
+
+.img-8{
+    background: url('../Imgs/img8.avif') round;
+}
+.img-9{
+    background: url('../Imgs/img9.avif') round;
 }
 
 .gal-items{
