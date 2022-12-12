@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../Imgs/apartment-architecture-carpet-276583.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    padding: 0 10px;
+}
+header div {
+    font-size: 64px;
+    color: white;
+}
+
+nav {
+    height: 97px;
+    position: absolute;
+    width: 100%;
+    padding-right: 35px;
+
+}
+
+nav div {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.logo {
+    background-image: url(../Imgs/logo.svg);
+    height: 97px;
+    width: 196px;
+}
+
+nav div ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul li {
+    padding: 0 20px;
+}
+
+#chooseus {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chooseustext {
+    font-size: 29px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.ch-div-id {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.ch-div-id div img {
+    height: 100px;
+}
+
+.ch-div-id div {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.ch-div-id div p {
+    text-align: center;
+}
+
+.gallary {
+    min-height: 700px;
+    width: 100%;
+}
+
+.gal-heading {
+    font-size: 30px;
+    line-height: 1.45;
+    letter-spacing: -0.0042em;
+    color: #111;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    padding: 0 10px;
+}
+
+.pill-containter {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 0.5rem 10px;
+
+}
+
+.pill-button {
+    font-size: .75rem;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+    border-color: #111;
+    line-height: 1.3333333333;
+    height: 2.5rem;
+    padding: 0 1.5rem;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    cursor: pointer;
+    outline: 0;
+    vertical-align: top;
+    border-radius: 64px;
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.bd-black {
+    border-color: black;
+}
+
+.gal-item{
+width: 420px;
+height: 560px;
+border-radius: 0.5rem;
+margin: 20px 0;
+object-fit: cover;
+}
+
+#small-div{
+height: 400px;
+}
+
+.img-1{
+    background: url('../Imgs/img1.avif') round;
+}
+
+.img-2{
+    background: url('../Imgs/img2.avif') round;
+}
+
+.img-3{
+    background: url('../Imgs/img3.avif') round;
+}
+
+.img-4{
+    background: url('../Imgs/img4.avif') round;
+}
+
+.img-5{
+    background: url('../Imgs/img5.avif') round;
+}
+
+.img-6{
+    background: url('../Imgs/img6.avif') round;
+}
+
+.img-7{
+    background: url('../Imgs/img7.avif') round;
+}
+
+.img-8{
+    background: url('../Imgs/img8.avif') round;
+}
+.img-9{
+    background: url('../Imgs/img9.avif') round;
+}
+
+.gal-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fbringhomemain{
+    height: 350px;
+}
+
+#fbridgehome-button-div{
+ display: flex;
+    justify-content: center;
+
+}
+
+#fbringhome-pill-load12more{
+    margin-top: 45px;
+    background-color: black;
+    color: white;
+}
+
+#fandibring{
+    width: 60%;
+    margin-top: 90px;
+    margin-left: 35px;
+}
+
+.footer{
+    background-color:#f5f5f5;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footerinfo{
+    width: 13%;
+}
+
+.footerinfo ul{
+    list-style: none;
+   
+}
+
+.footerinfo ul li{
+  padding-top: 10px;
+}
+
+.footerinfo h3{
+    display: flex;
+    justify-content: center;
+}
+
+#footerhelp-contact{
+    width: 19%;
+}
+
+.social-footer-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+
+@media(max-width: 776px) {
+
+
+    .ch-div-id {
+        width: 70%;
+        display: grid;
+        flex: 100%;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    
+
+.ch-div-id div img {
+    height: 100px;
+}
+
+.ch-div-id div {
+    width: 150px;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 320px;
+    align-items: center;
+    
+}
+
+
+.gal-items{
+    display: flex;
+    width: 150px;
+    flex: 70%;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.pill-button {
+    font-size: .75rem;
+    margin-right: 0.75rem;
+    flex-shrink: 0;
+    flex: 100%;
+    width: 50%;
+    display: grid;
+    border-color: #111;
+    line-height: 1.3333333333;
+    height: 2.5rem;
+    padding: 0 1.5rem;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    vertical-align: top;
+    border-radius: 64px;
+    transition-property: opacity, transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+#fbringhome-pill-load12more{
+    margin-top: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#fandibring{
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 35px;
+}
+
+.footer{
+    background-color:#f5f5f5;
+    margin-top: 200px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.footerinfo{
+    align-items: center;
+    width: 70%;
+
+}
+
+.footerinfo ul{
+    list-style: none;
+   
+}
+
+.footerhelp ul li{
+  padding-top: 10px;
+}
+
+.footerinfo h3{
+    margin-left: 50px;
+}
+
+#footerhelp-contact{
+    width: 45%;
+}
+
+.social-footer-icons{
+    display: flex;
+    margin-left: -20px;
+}
+
+
+nav {
+    height: 97px;
+    position: absolute;
+    width: 100%;
+    padding-right: 35px;
+
+}
+
+nav div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav div ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav div ul li {
+    padding: 0 5px;
+}
+.logo {
+    background-image: url(../Imgs/logo.svg);
+    
+    flex-direction: column;
+
+}
+#fa_fa_icons{
+    visibility: hidden;
+}
+
+
+}
